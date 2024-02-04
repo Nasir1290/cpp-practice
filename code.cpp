@@ -42,4 +42,5 @@
 
 // return type in c++.. we have to return depends on our methosd declaration... like if we declar our
 // method with int , then we have to return 0,1 or any other integer
-// if we return
+// if we declare method with void , then we have to return nothing
+// if we declare method with char , then we have to return charecter like this 👇

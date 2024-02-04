@@ -1,0 +1,45 @@
+// #include<stdio.h>
+// int main() {
+//     printf("hello boys");
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+
+//     int motherAmount;
+//     cout << "Enter Mother Amount :";
+//     cin >> motherAmount;
+//     cout << "Enter father amount :";
+//     int fatherAmount;
+//     cin >> fatherAmount;
+//     int sum = motherAmount + fatherAmount;
+//     cout << "sum of father and mother amount is :" << sum;
+
+//     return 0;
+// }
+
+
+// two different method for print hello world 👇👇
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     cout << "Hello world\n";
+//     return 0;
+// }
+
+
+// #include <cstdio>
+// using namespace std;
+// int main(){
+//     puts("Hello s");
+//     return 0;
+// }
+
+
+// return type in c++.. we have to return depends on our methosd declaration... like if we declar our
+// method with int , then we have to return 0,1 or any other integer
+// if we return

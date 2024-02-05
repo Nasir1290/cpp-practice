@@ -42,16 +42,55 @@
 // if we declare method with void , then we have to return nothing
 // if we declare method with char , then we have to return charecter like this 👇
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-void nothing();
+// void nothing();
+// char someChar();
+// int main()
+// {
+//     nothing();
+//     someChar();
+//     return 0;
+// }
+// void nothing()
+// {
+//     cout << "nothing" << endl;
+// };
+
+// char someChar(){
+//     printf("someChar");
+//     return('h');
+// }
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+// int main()
+// {
+//     string firstName;
+//     string secondName;
+//     cout << "Enter your first Name:";
+     
+//     getline(cin, firstName);
+//     cout << "Enter your second Name:";
+//     getline(cin, secondName);
+//     cout << "Hey.. " << firstName << " "<<secondName<<" how are you?" << endl;
+    
+//     return 0;
+// }
+
+
+
+#include <iostream>
+#include <string>
+using namespace std;
 int main()
 {
-    nothing();
+    int card = 40;
+    int *cardPtr=&card;
+    printf("The value of cardPtr is :%d\n", cardPtr);
+
+    printf("The value of Card is :%d\n", card);
     return 0;
 }
-void nothing()
-{
-    cout << "nothing" << endl;
-};

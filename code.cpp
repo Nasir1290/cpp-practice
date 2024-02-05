@@ -71,26 +71,43 @@
 //     string firstName;
 //     string secondName;
 //     cout << "Enter your first Name:";
-     
+
 //     getline(cin, firstName);
 //     cout << "Enter your second Name:";
 //     getline(cin, secondName);
 //     cout << "Hey.. " << firstName << " "<<secondName<<" how are you?" << endl;
-    
+
 //     return 0;
 // }
 
+/*
+What is pointer?
+ans:👉👉 in a single word pointer is just pointing to the memory address of any value which can store in any variable
 
-
+define a pointer👇
+int value = 40;
+int *ptr ;
+then assign the memory address of any variable into pointer👇
+ptr = &value;
+now if we will print ptr then we will find the memory address of value
+how to retrieve the value which are stored in the memory address stored in ptr ??👇👇
+int valueOfPtr;
+valueOfPtr = *ptr;
+now if we will print the valueOfPtr then we will find the actual value which are stored in the memory address which are stored in the ptr ?? so that's the pointer logic
+*/
 #include <iostream>
 #include <string>
 using namespace std;
-int main()
-{
-    int card = 40;
-    int *cardPtr=&card;
-    printf("The value of cardPtr is :%d\n", cardPtr);
+int main () {
+    int *myPtr;
+    int value = 40;
+    myPtr = &value;
+    int valueOfMyPtr = *myPtr;
+    printf("Value of value is :%d\n",value);
+    printf("valur of myPtr is : %p\n",myPtr);
+    printf("value of valueOfMyPtr is : %d\n",valueOfMyPtr);
+    
 
-    printf("The value of Card is :%d\n", card);
+
     return 0;
 }
